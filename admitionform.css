@@ -1,0 +1,118 @@
+body {
+    background-color: olivedrab;
+}
+h1 {
+    color: yellow;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    animation: animate 10s infinite; 
+}
+@keyframes animate {
+    0% {
+        transform: scale(0.5);
+    }
+    20% {
+        transform: scale(1);
+    }
+    35% {
+        transform: scale(2);
+    }
+    50% {
+        transform: scale(0.43);
+    }
+    70% {
+        transform: scale(1);
+    }
+    85% {
+        transform: scale(2);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
+
+.contianer {
+    background-color: blue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.form-el {
+    /* background-color: blue; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.form-el form {
+    background-color: teal;
+    /* display: flex; */
+    justify-content: center;
+    align-items: center;
+    border-radius: 2rem;
+    box-shadow: 1rem 0.5rem 1.5rem 2rem;
+    width: 40rem;
+}
+.username {
+    /* display: flex; */
+    margin-left: 3rem;
+}
+.last {
+    margin-left: 3rem;
+}
+.phone {
+    margin-left: 0.3rem;
+}
+.email {
+    margin-left: 4.5rem;
+}
+.password {
+    margin-left: 3rem;
+}
+.Date {
+    margin-left: 1.5rem;
+}
+.Country {
+    margin-left: 3rem;
+}
+.lang {
+    margin-left: 2rem;
+}
+p {
+    color: yellow;
+}
+.button {
+    background-color: aquamarine;
+    color: red;
+    cursor: pointer;
+}
+
+.reset {
+    background-color: red;
+    color: cornsilk;
+    cursor: pointer;
+}
+footer {
+    color:yellow;
+    display: flex;
+    justify-content: center;
+    animation: fade-in-out 10s infinite;
+}
+@keyframes fade-in-out {
+    0% {
+        opacity: 0.5;
+    }
+    25% {
+        opacity: 1;
+    }
+    50% {
+        opacity: 0.33;
+    }
+    75% {
+        opacity: 1.5;
+    }
+    100% {
+        opacity: 1;
+    }
+}
